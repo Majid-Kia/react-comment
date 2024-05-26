@@ -1,0 +1,13 @@
+import React from "react";
+
+const PostCard = () => {
+  return (
+    <div className="flex flex-col rounded-lg shadow">
+      <div className="h-24 bg-orange-300 rounded-t-lg"></div>
+      <div className="px-4 py-2">
+        <h1 className="text-lg">Title</h1>
+      </div>
+    </div>
+  );
+};
+export default PostCard;

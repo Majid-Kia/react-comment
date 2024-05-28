@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const CommentSection = () => {
+const CommentForm = () => {
   return (
     <div className="max-w-xl p-6 bg-white rounded-lg">
       <form className="flex flex-col ">
@@ -28,4 +28,4 @@ const CommentSection = () => {
   );
 };
 
-export default CommentSection;
+export default CommentForm;
